@@ -1,6 +1,6 @@
 {
   "name": "childprocess-websocket",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "Turns ChildProcess IPC into Web Socket",
   "main": "lib/index.js",
   "scripts": {
