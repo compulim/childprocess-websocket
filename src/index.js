@@ -16,7 +16,7 @@ export default class ChildProcessWebSocket extends WebSocketBase {
 
   detach() {
     this.childProcess.removeListener('disconnect', this.handleDisconnect);
-    this.childProcess.removeListener('message', this.handleDisconnect);
+    this.childProcess.removeListener('message', this.handleMessage);
   }
 
   handleDisconnect() {
